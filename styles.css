@@ -1,0 +1,98 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 16px;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+  display: flex; /* Utilizando flexbox para alinear los elementos de la barra de navegación */
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilos para el contenido principal */
+main {
+  padding: 20px;
+  display: flex; /* Utilizando flexbox para organizar las secciones en fila */
+  flex-wrap: wrap; /* Permitiendo que las secciones se coloquen en múltiples filas si no caben en una sola fila */
+  justify-content: space-between; /* Distribuyendo el espacio disponible entre las secciones */
+}
+
+/* Estilos para cada sección */
+section {
+  flex: 1; /* Permitiendo que cada sección crezca para ocupar el espacio disponible */
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: flex; /* Utilizando flexbox para centrar el contenido verticalmente */
+  flex-direction: column; /* Colocando el contenido en columnas */
+  align-items: center; /* Centrando el contenido horizontalmente */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact-section {
+  background-color: #333;
+  color: #ddd;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #ddd;
+  color: #333;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+}
